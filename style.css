@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content-header {
@@ -9,23 +10,42 @@
 }
 
 .navbar {
-    padding: 14px;
+    padding: 18px;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 150px;
 }
 
 .menus {
     font-size: 18px;
     color: #E5E7EB;
-    margin-left: 10px;
+    display: flex;
+    margin-right: 150px;
 }
 
-.content-one {
-    background-color: white;
+.header {
+    display: flex;
+    padding: 80px;
+}
+
+.textB {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+}
+
+.rounded-border {
+    border: 1px solid #E5E7EB;
+    width: 850px;
+    height: 250px;
+    margin-right: 80px;
+    margin-left: 10px;
 }
 
 .textB .text {
@@ -37,4 +57,12 @@
 .textB p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.text {
+    font-weight: 900px;
+}
+
+.content-one {
+    background-color: white;
 }
