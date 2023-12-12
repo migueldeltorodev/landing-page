@@ -135,3 +135,26 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.content-quote {
+    background-color: #E5E7EB;
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+em {
+    font-size: 30px;
+    align-content: center;
+    color: #1F2937;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content-quote p {
+    color: #1F2937;
+    align-self: flex-end;
+    margin-left: 50px;
+    margin-right: 50px;
+}
