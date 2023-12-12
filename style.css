@@ -41,8 +41,8 @@
 }
 
 .rounded-border {
-    border: 1px solid #E5E7EB;
-    border-radius: 6px;
+    /* border: 1px solid #E5E7EB;
+    border-radius: 6px; */
     width: 950px;
     height: 250px;
     margin-right: 80px;
@@ -82,4 +82,56 @@
 
 .content-one {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.text-one {
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.frames {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.frame-oneF {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.frame-twoF {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.frame-threeF {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.frame-fourF {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
