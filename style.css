@@ -19,6 +19,7 @@
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 150px;
+    align-self: flex-start;
 }
 
 .menus {
@@ -70,10 +71,12 @@
 
 .textB button {
     border-radius: 6px;
+    border: 0;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-weight: 900;
-    padding: 10px;
+    font-weight: 1200;
+    width: 130px;
+    height: 40px;
 }
 
 .text {
@@ -157,4 +160,39 @@ em {
     align-self: flex-end;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.content-blue {
+    background-color: white;
+    padding: 100px;
+}
+
+.blue-frame {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-frame .texts div {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.blue-frame .texts p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.blue-frame button {
+    border-radius: 6px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 130px;
+    height: 40px;
+    align-self: center;
 }
