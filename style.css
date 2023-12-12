@@ -196,3 +196,15 @@ em {
     height: 40px;
     align-self: center;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    color: #E5E7EB;
+    font-size: 18px;
+}
